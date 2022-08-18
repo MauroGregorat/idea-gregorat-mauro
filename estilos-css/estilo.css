@@ -284,31 +284,51 @@ body{
 
 
 /*-------- PREPARACION --------- */
-.colorletra{
-    color: white;
+.section-preparacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    padding: 10px;
+    
 }
+
 .ingredientes{
     width: 500px;
-    height: 200px;
-    border: 5px white solid;
-    padding-top: 15px;
-    margin: 50px 900px 50px 700px;
-   
+    height: 50vh;
+    border: 5px black solid;
+    padding:20px ;
+    text-align: center;
+    font-size: 25px;
+}
+.ingredientes:hover{
+    border: 8px white solid;
+    background-color: black;
+    color: white;
 }
 
 .sinpuntos{
     list-style-type: none;
 }
-
+.contenedor-preparacion{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    background-color: rgba(251, 255, 5, 0.445);
+}
 .pasos-preparacion{
     width: 500px;
-    height: 500px;
-    border: 5px white solid;
-    padding-top: 75px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 50px 900px 50px 700px;
-   
+    height: 90vh;
+    border: 5px black solid;
+    padding:20px ;
+    text-align: center;
+    font-size: 25px;
+}
+
+.pasos-preparacion:hover{
+    border: 8px white solid;
+    background-color: black;
+    color: white;
 }
 
 
