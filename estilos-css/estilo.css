@@ -15,14 +15,8 @@ ul li{
 /*--------- INDEX ---------- */
 /* HEADER */
 
-.header{
-    width: 100%;
-    background-color:rgba(217, 221, 5, 0.753);;
-    color: black;
-    padding: 10px;
-    flex-wrap: wrap;
-    
-}
+
+
 .titulo-header{
     text-align: center;
     text-transform: uppercase;
@@ -84,18 +78,22 @@ ul li{
 }
 
 
+
+
+
+
 /* MAIN */
 
 
 .main{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: 10% 40% 50%;
     grid-gap: 15px;
     grid-template-areas: 
     "titulo titulo titulo"
     "productos productos productos"
-    "publicidad publicidad publicidad";
+    "publicidad publicidad publicidad"; */
     justify-items: center;
     align-items: start;
     
@@ -182,14 +180,12 @@ body{
     padding: 5px;
     margin-bottom: 10px;
 }
-.boton{
-    color: black;
-    font-family: 'Merriweather', serif; 
-    font-size: 15px;
-    border-radius: 20px;
-    padding: 5px;
+.btn-outline-success{
+    
+    display: flex;
+    justify-content: center;
 }
-.boton:hover{
+.btn-outline-success:hover{
     background-color: rgb(53, 245, 6);
     width: 100px;
     height: 40px;
@@ -198,6 +194,7 @@ body{
 
 .producto__descripcion{
     list-style-type: none;
+    margin-right: 25px;
 }
 
 .subtituloinicio{
@@ -230,11 +227,10 @@ body{
 .texto-catalogo-index{
     text-align: center;
     text-transform: uppercase;
-    color: white;
-    background-color:rgba(0, 0, 0, 0.527);
+    background-color:rgba(255, 255, 255, 0.199);
     font-size: 2rem;
     padding: 10px;
-    grid-area: publicidad;
+    
 }
 
 
@@ -295,7 +291,7 @@ body{
 }
 
 .ingredientes{
-    width: 500px;
+    width: 50vh;
     height: 50vh;
     border: 5px black solid;
     padding:20px ;
@@ -317,8 +313,8 @@ body{
     background-color: rgba(251, 255, 5, 0.445);
 }
 .pasos-preparacion{
-    width: 500px;
-    height: 90vh;
+    width: 50vh;
+    height: 900px;
     border: 5px black solid;
     padding:20px ;
     text-align: center;
@@ -338,18 +334,16 @@ body{
 /* -------- HISTORIA ---------*/
 .textohistoria{
     text-align: center;
-    width: 800px;
-    height: 800px;
-    border: 8px white solid;
-    margin: 50px 750px 50px 580px;
-    padding-top: 75px;
+    /* width: 800px;
+    height: 800px; */
+    /* border: 8px white solid; */
+    
+    /* padding-top: 75px;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 50px; */
     
 }
-.video{
-    margin-top: 45px;
-}
+
 .titulohistoria{
     font-size: 2rem;
 }
@@ -533,9 +527,9 @@ body{
     margin-bottom: 30px;
 }
 
-a{
-    color: rgb(59, 59, 59);
+/* a{
+    color: rgb(207, 188, 19);
 }
 a:hover{
-   color:white
-}
+   color:whitegi
+} */
