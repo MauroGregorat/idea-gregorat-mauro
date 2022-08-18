@@ -532,3 +532,10 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+a{
+    color: rgb(59, 59, 59);
+}
+a:hover{
+   color:white
+}
