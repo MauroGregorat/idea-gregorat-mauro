@@ -16,7 +16,10 @@ ul li{
 /* HEADER */
 
 
-
+.navbar{
+    height: 10vh;
+    
+}
 .titulo-header{
     text-align: center;
     text-transform: uppercase;
@@ -86,14 +89,7 @@ ul li{
 
 
 .main{
-    /* display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 10% 40% 50%;
-    grid-gap: 15px;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "productos productos productos"
-    "publicidad publicidad publicidad"; */
+    
     justify-items: center;
     align-items: start;
     
@@ -114,7 +110,7 @@ ul li{
     flex-wrap: wrap;
     align-items: center;
     padding: 20px;
-    grid-area: productos;
+   
     
     
     
@@ -238,7 +234,7 @@ body{
 /* footer */
 
 .footer{
-    height: 20vh;
+    height: 40vh;
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
@@ -258,7 +254,9 @@ body{
         font-size: 2rem;
     }
 }
-
+.nav-item:hover{
+    font-size: 18px;
+}
 
 /* iconos */
 .icono-contenedor{
