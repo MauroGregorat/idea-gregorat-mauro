@@ -40,54 +40,48 @@
           </nav> 
     </header>
     
-    <form>
-        
-        <div class="tabla">
-            <div>
-                <label for="">Nombre y apellido</label>
-                <input type="text" id="nombre-usuario">
-            </div>
-            
-            <div>
-            <label for="">E-mail</label>
-            <input type="email" id="email-usuario">
-            </div>
-        
-           
-            <div>
-            <label for="">Mensaje</label>
-            <textarea name="" id="" cols="40" rows="5" id="mensaje-usuario"></textarea>
-            </div>
-        
-            <div>
-                <label for="">Quiere recibir màs recetas de hamburguesas?</label>
-                <input type="checkbox" id="news-usuario" name="News-usuario">
-            </div>
-        
-            <div>
-              
-                Por cual medio quiere que lo contacten?
-                <label for="">Por whatsapp</label>
-                <input type="radio" name="como-contacto" value="como-contacto-whatsapp">
-        
-                <label for="">Por instagram</label>
-                <input type="radio" name="como-contacto" value="como-contacto-instagram">
-            </div>
-        
-            <div>
-                
-                <label for="">Que te pareciò nuestra web?</label>
-                <select name="valorecion-usuario" id="valoracion-usuario">
-                    <option value="valoracion-1">Buenisima</option>
-                    <option value="valoracion-2">Masomenos</option>
-                    <option value="valoracion-3">Mala</option>
-                </select>
-            </div>
-            <input type="submit" value="Contactanos">
-            
-        
+    <form class="p-3 d-flex justify-content-around">
+      <div class="border border-3 border border-dark width-formulario p-3 mb-2 bg-secondary text-white">
+        <div class="mb-3 ">
+          <label for="exampleFormControlTextarea1" class="form-label fst-italic">Nombre y apellido</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="1"></textarea>
         </div>
-    
+        <div class="mb-3 ">
+          <label for="exampleFormControlInput1" class="form-label fst-italic">E-mail</label>
+          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@gmail.com">
+        </div>
+  
+        <div class="mb-3 ">
+          <label for="exampleFormControlTextarea1" class="form-label fst-italic">Mensaje</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+  
+        <select class="form-select form-select-sm mb-3" aria-label=".form-select-sm example">
+          <option selected>¿Que te pareció nuestra web?</option>
+          <option value="1">Buenisima</option>
+          <option value="2">Masomenos</option>
+          <option value="3">Mala</option>
+        </select>
+        <h4 class="fs-3 fst-italic mb-3">¿Por cual medio quiere que lo contacten?</h4>
+        <div class="form-check container-fluid width-formulario mt-3">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">
+            whatsapp
+          </label>
+        </div>
+        <div class="form-check ">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Instagram
+          </label>
+        </div>
+        <div class="form-check ">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">
+            Otro
+          </label>
+        </div>
+      </div>
     </form>
     
     <div class="caja-footer">

@@ -353,8 +353,8 @@ body{
 /*--------- CONTACTO -------- */
 
 .tabla{
-    width: 700px;
-    height: 700px;
+    width: 120vh;
+    height: 190vh;
     border: 8px violet solid;
     color:black ;
     font-size: 2rem;
@@ -365,7 +365,9 @@ body{
     margin: 50px 750px 50px 600px;
     background-color: white;
 }
-
+.width-formulario{
+    width: 100vh;
+}
 
 
 
@@ -404,10 +406,3 @@ body{
     margin-top: 10px;
     margin-bottom: 30px;
 }
-
-/* a{
-    color: rgb(207, 188, 19);
-}
-a:hover{
-   color:whitegi
-} */
