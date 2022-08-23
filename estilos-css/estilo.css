@@ -278,55 +278,6 @@ body{
 
 
 /*-------- PREPARACION --------- */
-.section-preparacion{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    align-content: space-between;
-    padding: 10px;
-    
-}
-
-.ingredientes{
-    width: 50vh;
-    height: 60vh;
-    border: 5px black solid;
-    padding:20px ;
-    text-align: center;
-    font-size: 25px;
-}
-.ingredientes:hover{
-    border: 8px white solid;
-    background-color: black;
-    color: white;
-}
-
-.sinpuntos{
-    list-style-type: none;
-}
-.contenedor-preparacion{
-    margin-top: 15px;
-    margin-bottom: 10px;
-    background-color: rgba(251, 255, 5, 0.445);
-}
-.pasos-preparacion{
-    width: 80vh;
-    height: 120vh;
-    border: 5px black solid;
-    padding:20px ;
-    text-align: center;
-    font-size: 25px;
-}
-
-.pasos-preparacion:hover{
-    border: 8px white solid;
-    background-color: black;
-    color: white;
-}
-
-
-
 
 
 /* -------- HISTORIA ---------*/
