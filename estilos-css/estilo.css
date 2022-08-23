@@ -290,7 +290,7 @@ body{
 
 .ingredientes{
     width: 50vh;
-    height: 50vh;
+    height: 60vh;
     border: 5px black solid;
     padding:20px ;
     text-align: center;
@@ -311,8 +311,8 @@ body{
     background-color: rgba(251, 255, 5, 0.445);
 }
 .pasos-preparacion{
-    width: 50vh;
-    height: 900px;
+    width: 80vh;
+    height: 120vh;
     border: 5px black solid;
     padding:20px ;
     text-align: center;
@@ -387,130 +387,10 @@ body{
     margin-top: 80px;
     margin-left: 700px;
 }
-.contenedor-productos-catalogo{
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        justify-content: center;
-        flex-wrap: wrap;
-        align-items: center;
-        padding: 20px;
-        
-    
-   
-}
-.tarjeta1{
-
-    background-image: url("../img/pollo\ burger.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.tarjeta2{
-
-    background-image: url("../img/whopper.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.tarjeta3{
-
-    background-image: url("../img/super\ bacon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-.tarjeta4{
-
-    background-image: url("../img/super\ bacon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.tarjeta5{
-
-    background-image: url("../img/super\ bacon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.tarjeta6{
-
-    background-image: url("../img/super\ bacon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+.card{
+    width: 50rem;
+    height: 30rem;
+    padding-top: 15px;
 }
 .espacioimagen4{
     margin-top: 10px;

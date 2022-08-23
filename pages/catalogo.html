@@ -7,178 +7,213 @@
     <title>Catalogo-El mundo de la hamburguesa</title>
     
     <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../estilos-css/estilo.css">
 </head>
 <body>
     <header class="header">
-        <h1 class="titulo-header">LAS HAMBURGUESAS MAS RICAS DEL MUNDO </h1>
-        <nav class="nav">
-            <ul class="menu-header">
-                <li class="listado-menu"><a href="../index.html">Inicio</a></li>
-                <li class="listado-menu"><a href="./Preparacion.html">Preparacion</a></li>
-                <li class="listado-menu"><a href="./historia.html">Historia</a></li>
-                <li class="listado-menu"><a href="./contacto.html">Contacto</a></li>
-                <li class="listado-menu"><a href="">Catalogo</a></li>
-            </ul>
-        <nav>  
-        
-        
+        <nav class="navbar navbar-expand-lg  bg-dark container-fluid">
+            <div class="container ">
+              <a class="navbar-brand text-uppercase fst-italic text-center fw-bolder text-white" href="">Catalogo de hamburguesas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex justify-content-end">
+                    <li class="nav-item">
+                      <a class="nav-link active text-white " aria-current="page" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./Preparacion.html">Preparacion</a>
+                    </li><li class="nav-item">
+                      <a class="nav-link active text-white" aria-current="page" href="./historia.html">Historia</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href=".">Catalogo</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="./contacto.html">Contacto</a>
+                    </li>      
+                          
+                        
+                </div>
+            </div>
+          </nav> 
     </header>
 
     <main>
-        <div class="portadatitulo">
-            <section class="portada">
-                <h2 class="subtituloinicio">¿QUE TIPO DE HAMBURGUESAS EXISTEN?</h2>
-                 <article>
-                    <div class="texto-catalogo">
-                        <p class="fondo-negro-catalogo letra">A continuacion te lo enseñaremos </p>
-                        
-                    </div>
-                </article>
-             </section>
-        </div>
-
-        <!-- <section>
-            <article class="posicion">
-                <img src="./img/hamburger-g04bea9924_1280.jpg" alt="Imagen de hamburguesa" class="bordes-redondeados">
-            </article>
-        </section> -->
+        <section class="portada container p-3">
+            <h2 class="col-12">¿QUE TIPO DE HAMBURGUESAS EXISTEN?</h2>
+            <p class="texto-portada col-12" >A continuacion te las enseñaremos ... </p>
+            
+        </section>
 
         <h2 class="subtituloinicio">LAS HAMBURGUESAS MAS FAMOSAS</h2>
 
-        <section class="contenedor-productos-catalogo">
-           
-            
-                <article class="tarjeta1">
-                    <h3 class="tarjeta__titulo">Oklahoma</h3>
-                    <div class="espacioimagen1">
-                        <img src="../img/Hambur oklahoma.jpg" alt="Hamburguesa estilo oklahoma" class="tarjeta__imagen">
+        <section class="container-fluid d-flex justify-content-between p-3 row">
+            <article class="card col-4" style="width: 20rem;">
+                <img src="../img/whopper.jpg" class="card-img-top" alt="Hamburguesa whopper">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Oklahoma</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>
                     
-                    <ul class="tarjeta__descripcion">
-                        <li>Pan de papa</li>
-                        <li>Queso fundido</li>
-                        <li>Cebolla caramelizada</li>
-                        <li>Medallon de carne</li>
-                        <li>Mayonesa</li>
-                    </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
+              <article class="card col-4 " style="width: 20rem;">
+                <img src="../img/super bacon.jpg" class="card-img-top" alt="Hamburguesa super bacon">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Super bacon</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>        
+                    
+              <article class="card col-4 m-2"style="width: 20rem;">
+                <img src="../img/snack-g84ad2dc2d_1280.jpg" class="card-img-top" alt="Hamburguesa snack">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Snack</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                <div class="d-flex justify-content-center">
+                  <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                </div>
+              </div>
+            </article>
+           
             </div>
-        
-
-        
-            
-                <article  class="tarjeta2">
-                    <h3 class="tarjeta__titulo">Clasica</h3>
-                    <div class="espacioimagen2">
-                        <img src="../img/Hambur clasica.jpg" alt="Hamburguesa estilo clasica" class="tarjeta__imagen">
-                    
-                    <ul class="tarjeta__descripcion">
-                        <li>Pan de papa</li>
-                        <li>Queso fundido</li>
-                        <li>Bacon</li>
-                        <li>Cebolla</li>
-                        <li>Cebolla morada</li>
-                        <li>lechuga</li>
-                        <li>Tomate</li>
-                        <li>Medallon de carne</li>
-                        <li>Mayonesa</li>
-                    </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
-           
-        
-
-        
-            
-                <article class="tarjeta3">
-                    <h3 class="tarjeta__titulo">Onion</h3>
-                    <div class="espacioimagen3">
-                        <img src="../img/Hambur onion.jpg" alt="Hamburguesa estilo Onion" class="tarjeta__imagen">
-                    </div>
-                        <ul class="tarjeta__descripcion">
-                            <li>Pan de papa</li>
-                            <li>Queso fundido</li>
-                            <li>Aros de cebolla</li>
-                            <li>Medallon de carne</li>
-                            <li>Salsa barbacoa</li>
-                        </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
-           
-        
-
-
-        
-           
-            
-                <article class="tarjeta4">
-                    <h3 class="tarjeta__titulo">BURGER DE POLLO </h3>
-                    <div class="espacioimagen4">
-                        <img src="../img/pollo burger.jpg" alt="Hamburguesa de pollo" class="tarjeta__imagen">
-                    </div>
-                    <ul class="tarjeta__descripcion">
-                        <li>Pan de papa</li>
-                        <li>Queso fundido</li>
-                        <li>Cebolla caramelizada</li>
-                        <li>Medallon de pollo</li>
-                        <li>Mayonesa</li>
-                        <li>Lechuga</li>
-                        <li>Cebolla</li>
-                    </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
-            
-        
-
-
-
-        
-            
-            
-                <article class="tarjeta5">
-                    <h3 class="tarjeta__titulo">WHOPPER</h3>
-                    <div class="espacioimagen5">
-                        <img src="../img/whopper.jpg" alt="Hamburguesa estilo whopper" class="tarjeta__imagen">
-                    </div>
-                    <ul class="tarjeta__descripcion">
-                        <li>Pan de papa</li>
-                        <li>Queso fundido</li>
-                        <li>Cebolla morada</li>
-                        <li>Pepino</li>
-                        <li>Lechuga </li>
-                        <li>Tomate</li>
-                        <li>Medallon de carne</li>
-                        <li>Mayonesa</li>
-                    </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
-           
-        
-
-
-        
-            
-            
-                <article class="tarjeta6">
-                    <h3 class="tarjeta__titulo">SUPER BACON</h3>
-                    <div class="espacioimagen6">
-                        <img src="../img/super bacon.jpg" alt="Hamburguesa con mucho bacon" class="tarjeta__imagen">
-                    </div>
-                    <ul class="tarjeta__descripcion">
-                        <li>Pan de papa</li>
-                        <li>Queso fundido</li>
-                        <li>Pepino</li>
-                        <li>Mucho bacon</li>
-                        <li>Tomate</li>
-                        <li>Medallon de carne</li>
-                       
-                    </ul>
-                    <button class="boton">PEDIR YA</button>
-                </article> 
-            
         </section>
+        <section class="container-fluid d-flex justify-content-between p-3 row">
+            <article class="card col-4" style="width: 20rem;">
+                <img src="../img/whopper.jpg" class="card-img-top" alt="Hamburguesa whopper">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Oklahoma</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>
+                    
+              <article class="card col-4 " style="width: 20rem;">
+                <img src="../img/super bacon.jpg" class="card-img-top" alt="Hamburguesa super bacon">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Super bacon</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>        
+                    
+              <article class="card col-4 m-2"style="width: 20rem;">
+                <img src="../img/snack-g84ad2dc2d_1280.jpg" class="card-img-top" alt="Hamburguesa snack">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Snack</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                <div class="d-flex justify-content-center">
+                  <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                </div>
+              </div>
+            </article>
+           
+            </div>
+        </section>
+        <section class="container-fluid d-flex justify-content-between p-3 row">
+            <article class="card col-4" style="width: 20rem;">
+                <img src="../img/whopper.jpg" class="card-img-top" alt="Hamburguesa whopper">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Oklahoma</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>
+                    
+              <article class="card col-4 " style="width: 20rem;">
+                <img src="../img/super bacon.jpg" class="card-img-top" alt="Hamburguesa super bacon">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Super bacon</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                  <div class="d-flex justify-content-center">
+                    <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                  </div>
+                </div>
+              </article>        
+                    
+              <article class="card col-4 m-2"style="width: 20rem;">
+                <img src="../img/snack-g84ad2dc2d_1280.jpg" class="card-img-top" alt="Hamburguesa snack">
+                <div class="card-body">
+                  <h3 class="card-title text-center">Snack</h3>
+                  <ul class="producto__descripcion text-center">
+                    <li>Pan de papa</li>
+                    <li>Queso fundido</li>
+                    <li>Cebolla caramelizada</li>
+                    <li>Medallon de carne</li>
+                    <li>Mayonesa</li>
+                  </ul>
+                <div class="d-flex justify-content-center">
+                  <button type="button" class="btn btn-outline-success">PEDIR YA</button>
+                </div>
+              </div>
+            </article>
+           
+            </div>
+        </section>
+
+
 
     </main>
 
