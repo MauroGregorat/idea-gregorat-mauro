@@ -240,15 +240,14 @@ body{
 
 .footer{
     height: 40vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    align-content: space-between;
     background-color: rgb(0, 0, 0);
     color: white;
-    padding: 10px;
-    margin-top: 50px;
-}
+     display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    align-content: space-between;
+    margin-top: 50px; 
+} 
 .texto-footer{
     font-size: 8px;
     text-decoration: none;
@@ -271,11 +270,10 @@ body{
 }
 .footer i{
     font-size: 1.5rem;
-    
 }
 .footer i:hover{
     color: yellow;
-    font-size:2rem;
+    font-size:1.8rem;
     
 
 }
