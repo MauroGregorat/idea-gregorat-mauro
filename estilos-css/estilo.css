@@ -17,8 +17,13 @@ ul li{
 
 
 .navbar{
-    height: 10vh;
+    height: 15vh;
     
+}
+@media (min-width:400px){
+    .navbar{
+        height: 10vh;
+    }
 }
 .titulo-header{
     text-align: center;
