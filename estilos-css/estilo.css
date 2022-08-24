@@ -164,7 +164,7 @@ body{
     justify-content: center;
 }
 .btn-outline-success:hover{
-    background-color: rgb(53, 245, 6);
+    background-color: rgb(39, 185, 3);
     width: 100px;
     height: 40px;
     color: white;
@@ -248,8 +248,8 @@ body{
     justify-content: end;
 }
 .footer i{
-    font-size: 1.5rem;
-    transition-duration: 0.3s;
+    font-size: 3rem;
+    transition-duration: 0.5s;
 }
 .footer i:hover{
     color: yellow;
@@ -261,15 +261,7 @@ body{
 
 /* -------- HISTORIA ---------*/
 .textohistoria{
-    text-align: center;
-    /* width: 800px;
-    height: 800px; */
-    /* border: 8px white solid; */
-    
-    /* padding-top: 75px;
-    padding-left: 50px;
-    padding-right: 50px; */
-    
+    text-align: center;    
 }
 
 .titulohistoria{
@@ -277,19 +269,6 @@ body{
 }
 
 /*--------- CONTACTO -------- */
-.tabla{
-    width: 120vh;
-    height: 190vh;
-    border: 8px violet solid;
-    color:black ;
-    font-size: 2rem;
-    text-align: center;
-    padding-top: 75px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: 50px 750px 50px 600px;
-    background-color: white;
-}
 .width-formulario{
     width: 100vh;
 }
