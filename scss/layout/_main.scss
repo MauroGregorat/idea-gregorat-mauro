@@ -1,0 +1,66 @@
+.main{
+    justify-items: center;
+    align-items: start;   
+}
+
+.productos{
+    padding: 10px;
+    font-size: 2rem;
+}
+
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+}
+.letra{
+    font-size: 35px;
+}
+h2{
+    background-color: rgba(2, 0, 0, 0.534);
+    text-align: center;
+    color: white;
+    padding: 15px;
+    margin-top: 25px;  
+}
+
+
+.catalogo-index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    margin: 10px;
+    
+}
+
+@media (max-width:700px){
+    .parrafo-catalogo{
+        font-size: 20px;
+    }
+    .catalogo-index{
+        margin: 10px;
+        overflow: hidden;
+    }
+}
+
+.texto-catalogo-index{
+    text-align: center;
+    text-transform: uppercase;
+    background-color:rgba(255, 255, 255, 0.199);
+    font-size: 2rem;
+    padding: 10px;
+    
+}
+
+.textohistoria{
+    text-align: center;    
+}
+
+.titulohistoria{
+    font-size: 2rem;
+}

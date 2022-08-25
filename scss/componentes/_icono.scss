@@ -1,0 +1,13 @@
+.icono-contenedor{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.footer i{
+    font-size: 3rem;
+    transition-duration: 0.5s;
+}
+.footer i:hover{
+    color: yellow;
+    font-size:1.8rem;
+}

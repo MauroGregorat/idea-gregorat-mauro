@@ -1,0 +1,56 @@
+.titulo-header{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.menu-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+    align-items: center;
+    font-size: 15px;
+}
+
+@media (min-width:1020px){
+    .header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center
+    }
+    .nav{
+        width: 50%;
+    }
+    
+}
+
+
+.portada{
+    background-image: url(../img/snack-g84ad2dc2d_1280.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: baseline;
+    align-items: center;
+   
+}
+
+
+
+.texto-portada{
+    background-color: rgba(2, 0, 0, 0.534);
+    text-align: center;
+    color: white;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+@media (min-width:800px){
+    .texto-portada{
+        font-size: 2rem;
+    }
+}

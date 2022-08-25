@@ -1,301 +1,281 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-a{
-    text-decoration: none;
-    list-style-type: none;
-}
-ul li{
-    list-style-type: none;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
 }
 
-
-/*--------- INDEX ---------- */
-/* HEADER */
-
-
-.navbar{
-    height: 15vh;
-    
-}
-@media (min-width:400px){
-    .navbar{
-        height: 10vh;
-    }
-}
-.titulo-header{
-    text-align: center;
-    text-transform: uppercase;
+a {
+  text-decoration: none;
+  list-style-type: none;
 }
 
-.menu-header{
+ul li {
+  list-style-type: none;
+}
+
+html {
+  font-family: "Merriweather", serif;
+}
+
+body {
+  background-color: rgb(238, 222, 131);
+}
+
+.navbar {
+  height: 15vh;
+}
+
+@media (min-width: 400px) {
+  .navbar {
+    height: 10vh;
+  }
+}
+.titulo-header {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  font-size: 15px;
+}
+
+@media (min-width: 1020px) {
+  .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    list-style-type: none;
     align-items: center;
-    font-size: 15px;
+  }
+  .nav {
+    width: 50%;
+  }
+}
+.portada {
+  background-image: url(../img/snack-g84ad2dc2d_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: baseline;
+  align-items: center;
 }
 
-@media (min-width:1020px){
-    .header{
-        display: flex;
-        justify-content: space-around;
-        align-items: center
-    }
-    .nav{
-        width: 50%;
-    }
-    
+.texto-portada {
+  background-color: rgba(2, 0, 0, 0.534);
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  padding: 10px;
 }
 
-
-
-
-/* SECCION INICIO */
-.portada{
-    background-image: url(../img/snack-g84ad2dc2d_1280.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    height: 80vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: baseline;
-    align-items: center;
-   
-}
-
-
-
-.texto-portada{
-    background-color: rgba(2, 0, 0, 0.534);
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-}
-
-@media (min-width:800px){
-    .texto-portada{
-        font-size: 2rem;
-    }
-}
-
-
-/* MAIN */
-.main{
-    justify-items: center;
-    align-items: start;   
-}
-
-.productos{
-    padding: 10px;
+@media (min-width: 800px) {
+  .texto-portada {
     font-size: 2rem;
+  }
+}
+.main {
+  justify-items: center;
+  align-items: start;
 }
 
-.contenedor-productos{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 20px;
-}
-.letra{
-    font-size: 35px;
-}
-h2{
-    background-color: rgba(2, 0, 0, 0.534);
-    text-align: center;
-    color: white;
-    padding: 15px;
-    margin-top: 25px;  
-} 
-
-
-/* tipografia de todo el documento */
-html{
-    font-family: 'Merriweather', serif;
-}
-body{
-    background-color: rgb(238, 222, 131);
+.productos {
+  padding: 10px;
+  font-size: 2rem;
 }
 
-/* tarjetas */
-.producto{
-    
-    background-image: url("../img/hamburger-g04bea9924_1280.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    width: 350px;
-    height: 550px;
-    border: 8px white solid;
-    padding: 50px;
-    text-transform: uppercase;
+.contenedor-productos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 20px;
+}
+
+.letra {
+  font-size: 35px;
+}
+
+h2 {
+  background-color: rgba(2, 0, 0, 0.534);
+  text-align: center;
+  color: white;
+  padding: 15px;
+  margin-top: 25px;
+}
+
+.catalogo-index {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+@media (max-width: 700px) {
+  .parrafo-catalogo {
+    font-size: 20px;
+  }
+  .catalogo-index {
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
+    overflow: hidden;
+  }
 }
-.producto:hover{
-    border: 10px black solid;
-}
-
-.tarjeta__imagen{
-    width: 100%;
-}
-.producto__titulo{
-    background-color: rgba(0, 0, 0, 0.466);
-    padding: 5px;
-    margin-bottom: 10px;
-}
-.btn-outline-success{
-    
-    display: flex;
-    justify-content: center;
-}
-.btn-outline-success:hover{
-    background-color: rgb(39, 185, 3);
-    width: 100px;
-    height: 40px;
-    color: white;
-    transition-duration: 0.2s;
+.texto-catalogo-index {
+  text-align: center;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.199);
+  font-size: 2rem;
+  padding: 10px;
 }
 
-.producto__descripcion{
-    list-style-type: none;
-    margin-right: 25px;
+.textohistoria {
+  text-align: center;
 }
 
-.subtituloinicio{
+.titulohistoria {
+  font-size: 2rem;
+}
+
+.btn-outline-success {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-outline-success:hover {
+  background-color: rgb(39, 185, 3);
+  width: 100px;
+  height: 40px;
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.producto {
+  background-image: url("../img/hamburger-g04bea9924_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  width: 350px;
+  height: 550px;
+  border: 8px white solid;
+  padding: 50px;
+  text-transform: uppercase;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.producto:hover {
+  border: 10px black solid;
+}
+
+.tarjeta__imagen {
+  width: 100%;
+}
+
+.producto__titulo {
+  background-color: rgba(0, 0, 0, 0.466);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.producto__descripcion {
+  list-style-type: none;
+  margin-right: 25px;
+}
+
+.subtituloinicio {
+  font-size: 2rem;
+}
+
+.footer {
+  height: 40vh;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  align-content: space-between;
+  margin-top: 50px;
+}
+
+.texto-footer {
+  font-size: 8px;
+  text-decoration: none;
+}
+
+@media (min-width: 800px) {
+  .texto-footer {
     font-size: 2rem;
+  }
+}
+.nav-item:hover {
+  font-size: 18px;
+  transition-duration: 0.1s;
 }
 
-
-
-
-/* publicidad del catalogo */
-.catalogo-index{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    margin: 10px;
-    
+.width-formulario {
+  width: 100vh;
 }
 
-@media (max-width:700px){
-    .parrafo-catalogo{
-        font-size: 20px;
-    }
-    .catalogo-index{
-        margin: 10px;
-        overflow: hidden;
-    }
-}
-
-.texto-catalogo-index{
-    text-align: center;
-    text-transform: uppercase;
-    background-color:rgba(255, 255, 255, 0.199);
-    font-size: 2rem;
-    padding: 10px;
-    
-}
-
-
-
-/* footer */
-
-.footer{
-    height: 40vh;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    align-content: space-between;
-    margin-top: 50px; 
-} 
-.texto-footer{
-    font-size: 8px;
-    text-decoration: none;
-}
-
-@media (min-width:800px){
-    .texto-footer{
-        font-size: 2rem;
-    }
-}
-.nav-item:hover{
-    font-size: 18px;
-    transition-duration: 0.1s;
-}
-
-/* iconos */
-.icono-contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-.footer i{
-    font-size: 3rem;
-    transition-duration: 0.5s;
-}
-.footer i:hover{
-    color: yellow;
-    font-size:1.8rem;
-}
-
-/*-------- PREPARACION --------- */
-
-
-/* -------- HISTORIA ---------*/
-.textohistoria{
-    text-align: center;    
-}
-
-.titulohistoria{
-    font-size: 2rem;
-}
-
-/*--------- CONTACTO -------- */
-.width-formulario{
-    width: 100vh;
+.width-formulario {
+  width: 100vh;
 }
 
 /*---------CATALOGO---------*/
-.fondo-negro-catalogo{
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-.texto-catalogo{
-    width: 500px;
-    height: 300px;
-    border: 5px rgb(255, 255, 255) solid;
-    background-color: black;
-    padding-top: 80px;
-    margin-top: 80px;
-    margin-left: 700px;
-}
-.card{
-    width: 50rem;
-    height: 30rem;
-    padding-top: 15px;
-    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
-}
-.card:hover{
-    transform: scale(1.02);
-    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
+.fondo-negro-catalogo {
+  text-align: center;
+  color: white;
+  background-color: black;
 }
 
+.texto-catalogo {
+  width: 500px;
+  height: 300px;
+  border: 5px rgb(255, 255, 255) solid;
+  background-color: black;
+  padding-top: 80px;
+  margin-top: 80px;
+  margin-left: 700px;
+}
+
+.card {
+  width: 50rem;
+  height: 30rem;
+  padding-top: 15px;
+  box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
+}
+
+.icono-contenedor {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer i {
+  font-size: 3rem;
+  transition-duration: 0.5s;
+}
+
+.footer i:hover {
+  color: yellow;
+  font-size: 1.8rem;
+}
+
+/*# sourceMappingURL=estilo.css.map */
