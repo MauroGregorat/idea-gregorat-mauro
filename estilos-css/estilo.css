@@ -183,13 +183,23 @@ h2 {
 }
 
 .footer i {
-  font-size: 3rem;
+  font-size: 2rem;
   transition-duration: 0.5s;
 }
 
-.footer i:hover {
-  color: yellow;
-  font-size: 1.8rem;
+.bi-instagram:hover {
+  color: rgb(125, 17, 125);
+  font-size: 2.3rem;
+}
+
+.bi-whatsapp:hover {
+  color: rgb(15, 195, 15);
+  font-size: 2.3rem;
+}
+
+.bi-twitter:hover {
+  color: rgb(22, 220, 180);
+  font-size: 2.3rem;
 }
 
 /*# sourceMappingURL=estilo.css.map */
