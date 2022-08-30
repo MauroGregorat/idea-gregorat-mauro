@@ -1,5 +1,14 @@
 
-
+.card{
+    width: 50rem;
+    height: 30rem;
+    padding-top: 15px;
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
+}
+.card:hover{
+    transform: scale(1.02);
+    box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
+}
 
 
 
