@@ -1,7 +1,7 @@
 
 .card{
-    width: 50rem;
-    height: 30rem;
+    margin: 3%;
+    height: 500px;
     padding-top: 15px;
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
 }
@@ -9,6 +9,10 @@
     transform: scale(1.02);
     box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
 }
+.card-title{
+    text-transform: uppercase;
+}
+
 
 
 

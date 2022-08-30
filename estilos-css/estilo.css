@@ -30,20 +30,6 @@ body {
     height: 10vh;
   }
 }
-.titulo-header {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.menu-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  list-style-type: none;
-  align-items: center;
-  font-size: 15px;
-}
-
 @media (min-width: 1020px) {
   .header {
     display: flex;
@@ -149,8 +135,8 @@ h2 {
 }
 
 .card {
-  width: 50rem;
-  height: 30rem;
+  margin: 3%;
+  height: 500px;
   padding-top: 15px;
   box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
 }
@@ -158,6 +144,10 @@ h2 {
 .card:hover {
   transform: scale(1.02);
   box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
+}
+
+.card-title {
+  text-transform: uppercase;
 }
 
 .footer {
