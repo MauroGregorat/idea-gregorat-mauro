@@ -90,16 +90,6 @@ body {
   font-size: 2rem;
 }
 
-.contenedor-productos {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  justify-content: center;
-  flex-wrap: wrap;
-  align-items: center;
-  padding: 20px;
-}
-
 .letra {
   font-size: 35px;
 }
@@ -156,47 +146,6 @@ h2 {
   height: 40px;
   color: white;
   transition-duration: 0.2s;
-}
-
-.producto {
-  background-image: url("../img/hamburger-g04bea9924_1280.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  text-align: center;
-  width: 350px;
-  height: 550px;
-  border: 8px white solid;
-  padding: 50px;
-  text-transform: uppercase;
-  margin: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.producto:hover {
-  border: 10px black solid;
-}
-
-.tarjeta__imagen {
-  width: 100%;
-}
-
-.producto__titulo {
-  background-color: rgba(0, 0, 0, 0.466);
-  padding: 5px;
-  margin-bottom: 10px;
-}
-
-.producto__descripcion {
-  list-style-type: none;
-  margin-right: 25px;
-}
-
-.subtituloinicio {
-  font-size: 2rem;
 }
 
 .footer {
