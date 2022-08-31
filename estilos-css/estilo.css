@@ -121,19 +121,6 @@ h2 {
   font-size: 2rem;
 }
 
-.btn-outline-success {
-  display: flex;
-  justify-content: center;
-}
-
-.btn-outline-success:hover {
-  background-color: rgb(39, 185, 3);
-  width: 100px;
-  height: 40px;
-  color: white;
-  transition-duration: 0.2s;
-}
-
 .card {
   margin: 3%;
   height: 500px;
