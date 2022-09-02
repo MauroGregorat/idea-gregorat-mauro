@@ -20,18 +20,18 @@
     justify-content: space-around;
     align-items: baseline;
     align-items: center;
-   
-}
-.texto-portada{
-    background-color: rgba(2, 0, 0, 0.534);
-    text-align: center;
-    color: white;
-    font-size: 1rem;
-    padding: 10px;
-}
+
+    &__texto{
+        background-color: rgba(2, 0, 0, 0.534);
+        text-align: center;
+        color: white;
+        font-size: 1rem;
+        padding: 10px;
+    }
+}  
 
 @media (min-width:800px){
-    .texto-portada{
+    .portada__texto{
         font-size: 2rem;
     }
 }

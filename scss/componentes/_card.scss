@@ -4,14 +4,23 @@
     height: 500px;
     padding-top: 15px;
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
+    &__sin-stock{
+        @extend .card;
+        background-color: grey;
+    }
+    &__estrella{
+        @extend .card;
+        background-color: rgb(0, 255, 149);
+    }
+    &__titulo{
+        text-transform: uppercase;
+    }
 }
 .card:hover{
     transform: scale(1.02);
     box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
 }
-.card-title{
-    text-transform: uppercase;
-}
+
 
 
 

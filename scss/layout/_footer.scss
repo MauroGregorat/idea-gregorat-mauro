@@ -1,12 +1,11 @@
 .footer{
     height: 200px;
+    &__texto{
+        font-size: 16px;
+    }
 }
-.texto-footer{
-    font-size: 16px;
-}
-
 @media (min-width:800px){
-    .texto-footer{
+    .footer__texto{
         font-size: 2rem;
     }
 }

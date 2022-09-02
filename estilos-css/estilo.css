@@ -47,20 +47,25 @@ body {
   font-size: 2.3rem;
 }
 
-.card {
+.card, .card__estrella, .card__sin-stock {
   margin: 3%;
   height: 500px;
   padding-top: 15px;
   box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.493);
 }
-
-.card:hover {
-  transform: scale(1.02);
-  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
+.card__sin-stock {
+  background-color: grey;
+}
+.card__estrella {
+  background-color: rgb(0, 255, 149);
+}
+.card__titulo {
+  text-transform: uppercase;
 }
 
-.card-title {
-  text-transform: uppercase;
+.card:hover, .card__sin-stock:hover, .card__estrella:hover {
+  transform: scale(1.02);
+  box-shadow: 40px 40px 60px rgba(0, 0, 0, 0.493);
 }
 
 .navbar {
@@ -94,8 +99,7 @@ body {
   align-items: baseline;
   align-items: center;
 }
-
-.texto-portada {
+.portada__texto {
   background-color: rgba(2, 0, 0, 0.534);
   text-align: center;
   color: white;
@@ -104,7 +108,7 @@ body {
 }
 
 @media (min-width: 800px) {
-  .texto-portada {
+  .portada__texto {
     font-size: 2rem;
   }
 }
@@ -166,13 +170,12 @@ h2 {
 .footer {
   height: 200px;
 }
-
-.texto-footer {
+.footer__texto {
   font-size: 16px;
 }
 
 @media (min-width: 800px) {
-  .texto-footer {
+  .footer__texto {
     font-size: 2rem;
   }
 }
