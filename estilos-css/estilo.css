@@ -21,13 +21,7 @@ body {
   background-color: rgb(238, 222, 131);
 }
 
-.icono-contenedor {
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
-}
-
-.footer i {
+.iconos {
   font-size: 2rem;
   transition-duration: 0.5s;
 }
@@ -43,7 +37,7 @@ body {
 }
 
 .bi-twitter:hover {
-  color: rgb(22, 220, 180);
+  color: rgb(127, 236, 255);
   font-size: 2.3rem;
 }
 
@@ -80,7 +74,7 @@ body {
 @media (min-width: 1020px) {
   .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
   }
   .nav {
@@ -94,22 +88,22 @@ body {
   background-attachment: fixed;
   height: 80vh;
   display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: baseline;
+  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  align-items: baseline;
 }
 .portada__texto {
   background-color: rgba(2, 0, 0, 0.534);
   text-align: center;
   color: white;
-  font-size: 1rem;
+  font-size: 18px;
   padding: 10px;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1020px) {
   .portada__texto {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 .main {
@@ -132,35 +126,6 @@ h2 {
   color: white;
   padding: 15px;
   margin-top: 25px;
-}
-
-.catalogo-index {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 15px;
-  margin: 10px;
-}
-
-@media (max-width: 700px) {
-  .parrafo-catalogo {
-    font-size: 20px;
-  }
-  .catalogo-index {
-    margin: 10px;
-    overflow: hidden;
-  }
-}
-.texto-catalogo-index {
-  text-align: center;
-  text-transform: uppercase;
-  background-color: rgba(255, 255, 255, 0.199);
-  font-size: 2rem;
-  padding: 10px;
-}
-
-.textohistoria {
-  text-align: center;
 }
 
 .titulohistoria {

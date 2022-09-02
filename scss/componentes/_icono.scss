@@ -1,21 +1,19 @@
-.icono-contenedor{
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-}
-.footer i{
+
+.iconos{
     font-size: 2rem;
     transition-duration: 0.5s;
 }
+    $tamaño-icono-hover: 2.3rem;
+
 .bi-instagram:hover{
     color: rgb(125, 17, 125);
-    font-size:2.3rem;
+    font-size:$tamaño-icono-hover;
 }
 .bi-whatsapp:hover{
     color: rgb(15, 195, 15);
-    font-size:2.3rem;
+    font-size:$tamaño-icono-hover;
 }
 .bi-twitter:hover{
-    color: rgb(22, 220, 180);
-    font-size:2.3rem;
+    color: rgb(127, 236, 255);
+    font-size:$tamaño-icono-hover;
 }
