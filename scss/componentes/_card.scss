@@ -10,7 +10,7 @@
     }
     &__estrella{
         @extend .card;
-        background-color: rgb(0, 255, 149);
+        background-color: rgba(0, 255, 0, 0.801);
     }
     &__titulo{
         text-transform: uppercase;
