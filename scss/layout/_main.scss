@@ -9,14 +9,20 @@
 .letra{
     font-size: 35px;
 }
-h2{
+@mixin titulos {
     background-color: rgba(2, 0, 0, 0.534);
     text-align: center;
     color: white;
     padding: 15px;
-    margin-top: 25px;  
+    margin-top: 25px; 
+}
+h1{
+    @include titulos   
 }
 
+h2 {
+    @include titulos
+}
 .titulohistoria{
     font-size: 2rem;
 }
