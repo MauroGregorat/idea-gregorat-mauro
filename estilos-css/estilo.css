@@ -41,6 +41,16 @@ body {
   font-size: 2.3rem;
 }
 
+.btn {
+  color: rgb(205, 224, 30);
+  background-color: rgb(0, 0, 0);
+}
+
+.btn:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(165, 204, 25);
+}
+
 .card, .card__estrella, .card__sin-stock {
   margin: 3%;
   height: 500px;
