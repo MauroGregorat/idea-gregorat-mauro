@@ -21,6 +21,10 @@ body {
   background-color: rgb(238, 222, 131);
 }
 
+html {
+  font-family: "Kanit", Arial, Helvetica;
+}
+
 .iconos {
   font-size: 2rem;
   transition-duration: 0.5s;
@@ -49,6 +53,11 @@ body {
 .btn:hover {
   color: rgb(0, 0, 0);
   background-color: rgb(247, 232, 21);
+}
+
+.catalogo:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(117, 7, 7);
 }
 
 .card, .card__estrella, .card__sin-stock {
