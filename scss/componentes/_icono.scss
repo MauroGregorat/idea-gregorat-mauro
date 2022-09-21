@@ -1,10 +1,21 @@
 
 .iconos{
-    font-size: 2rem;
-    transition-duration: 0.5s;
+    font-size: 1rem;
+    transition-duration: 0.3s;
 }
-    $tamaño-icono-hover: 2.3rem;
+    $tamaño-icono-hover: 2rem;
 
+    @media (min-width:500px){
+        .iconos{
+            font-size: 1.5rem;
+        }
+    }
+    @media (min-width:800px){
+        .iconos{
+            font-size: 1.8rem;
+        }
+    }
+    
 .bi-instagram:hover{
     color: rgb(125, 17, 125);
     font-size:$tamaño-icono-hover;

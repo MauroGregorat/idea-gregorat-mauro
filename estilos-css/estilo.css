@@ -26,23 +26,33 @@ html {
 }
 
 .iconos {
-  font-size: 2rem;
-  transition-duration: 0.5s;
+  font-size: 1rem;
+  transition-duration: 0.3s;
 }
 
+@media (min-width: 500px) {
+  .iconos {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 800px) {
+  .iconos {
+    font-size: 1.8rem;
+  }
+}
 .bi-instagram:hover {
   color: rgb(125, 17, 125);
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .bi-whatsapp:hover {
   color: rgb(15, 195, 15);
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .bi-twitter:hover {
   color: rgb(127, 236, 255);
-  font-size: 2.3rem;
+  font-size: 2rem;
 }
 
 .btn {
@@ -57,7 +67,7 @@ html {
 
 .catalogo:hover {
   color: rgb(0, 0, 0);
-  background-color: rgb(117, 7, 7);
+  background-color: rgb(35, 2, 184);
 }
 
 .card, .card__estrella, .card__sin-stock {
@@ -82,12 +92,12 @@ html {
 }
 
 .navbar {
-  height: 15vh;
+  height: 20vh;
 }
 
 @media (min-width: 400px) {
   .navbar {
-    height: 10vh;
+    height: 15vh;
   }
 }
 @media (min-width: 1020px) {
@@ -166,9 +176,16 @@ h2 {
   font-size: 16px;
 }
 
+.nav-item {
+  font-size: 12px;
+}
+
 @media (min-width: 800px) {
   .footer__texto {
     font-size: 2rem;
+  }
+  .nav-item {
+    font-size: 18px;
   }
 }
 .nav-item:hover {

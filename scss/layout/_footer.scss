@@ -4,9 +4,16 @@
         font-size: 16px;
     }
 }
+.nav-item{
+    font-size: 12px;
+    
+}
 @media (min-width:800px){
     .footer__texto{
         font-size: 2rem;
+    }
+    .nav-item{
+        font-size: 18px;
     }
 }
 .nav-item:hover{
