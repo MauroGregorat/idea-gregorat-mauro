@@ -92,12 +92,25 @@ html {
 }
 
 .navbar {
-  height: 20vh;
+  height: 30vh;
 }
 
-@media (min-width: 400px) {
+@media (min-width: 1024px) {
   .navbar {
     height: 15vh;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .menunav {
+    height: 70vh;
+  }
+  .productos {
+    font-size: 10px;
+  }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+  .menunav {
+    height: 70vh;
   }
 }
 @media (min-width: 1020px) {
@@ -185,7 +198,7 @@ h2 {
     font-size: 2rem;
   }
   .nav-item {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 .nav-item:hover {
